@@ -1,12 +1,12 @@
 <template>
-  <div class="main">
-    Main..
-  </div>
+  <footer class="">
+    VuestarGram정보 지원 블로그 홍보센터.....
+  </footer>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Footer',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App!!!'
@@ -19,9 +19,8 @@ export default {
 <style lang="scss" scoped>
 @import "~styles/variables.scss";
 
-.main{
+footer{
   width: $content_width;
-  margin: 0 auto;
-  min-height:600px;
+  margin:0 auto;
 }
 </style>
